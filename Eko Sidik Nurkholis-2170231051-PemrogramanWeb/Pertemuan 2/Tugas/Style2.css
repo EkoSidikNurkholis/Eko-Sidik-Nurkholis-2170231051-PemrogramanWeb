@@ -1,0 +1,183 @@
+.nav-item {
+  border: 1px solid #000;
+  margin: 5px;
+}
+
+.nav-item:hover {
+  transition: all 0.5s ease 0s;
+  background-color: red;
+  color: #000;
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(12, 3, 51, 0, 3), rgba(12, 3, 51, 0, 3));
+}
+
+.hero video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.content h1 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0, 5s;
+}
+
+.content h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.content p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  padding: 14px 70px;
+  margin-top: 5px;
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+/* pendidikan Section */
+.row h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+/* jadwal kuliah Section */
+.table h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.table th {
+  color: #fff;
+}
+/* akhir jadwal kuliah Section */
+
+/* aktifitas Section */
+#about .section {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding-top: 100px;
+}
+#about .active-info {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* akhir aktifitas Section */
+
+/* contact Section */
+#contact .section-title {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#contact .contact {
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+  justify-content: center;
+  min-width: 20vh;
+}
+#contact .contact-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+}
+#contact .contact-item {
+  width: 50%;
+  margin: 30px;
+  padding: 20px;
+  flex-direction: row;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .contact-item .icon {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+#contact .icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#contact .contact-item .contact-info {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  text-align: center;
+}
+/* akhir contact  */
+
+/* Footer */
+#footer {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+  min-height: 100px;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+#footer h1 {
+  color: white;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 3px;
+}
+/* akhir Footer */
